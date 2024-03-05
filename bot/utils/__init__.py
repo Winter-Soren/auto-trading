@@ -1,1 +1,1 @@
-from TelegramMessageListener import TelegramMessageListener
+from .TelegramMessageListener import TelegramMessageListener
