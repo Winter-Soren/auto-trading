@@ -24,26 +24,8 @@ async def main():
     me = await client.get_me()
     print(f"Welcome: {me.first_name}, your ID is: {me.id}, and your username is: @{me.username}")
     channel = user_input_channel
-    # entity = await client.get_entity(channel)   # Convert it to a PeerChannel
-    # limit = 1                                   # How many messages to retrieve
-    # offset_id = 0                               # The offset ID for which we retrieve the messages
-    # max_id = 0                                  # The maximum ID for which we retrieve the messages
-    # messages = await client(
-    #     GetHistoryRequest(
-    #         peer=entity,
-    #         limit=limit,
-    #         offset_date=None,
-    #         offset_id=offset_id,
-    #         max_id=max_id,
-    #         min_id=0,
-    #         add_offset=0,
-    #         hash=0,
-    #     )
-    # )
 
-    @client.on(
-        events.NewMessage(chats=channel)
-    )  # Add an event handler for new messages
+    @client.on(events.NewMessage(chats=channel)) 
     async def handler(event):
         global_event = event
         print(global_event.raw_text)
