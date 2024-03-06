@@ -1,8 +1,6 @@
 from config import TELEGRAM_API_ID, TELEGRAM_API_HASH, TELEGRAM_PHONE_NUMBER
 from telethon.errors import SessionPasswordNeededError
-from telethon import TelegramClient, events, sync
-from telethon.tl.functions.messages import GetHistoryRequest
-from telethon.tl.types import PeerChannel
+from telethon import TelegramClient, events
 
 api_id = TELEGRAM_API_ID
 api_hash = TELEGRAM_API_HASH
