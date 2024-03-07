@@ -1,8 +1,8 @@
 from telethon.errors import SessionPasswordNeededError
 from telethon import TelegramClient, events
 import logging
-from config import TELEGRAM_API_ID, TELEGRAM_API_HASH, TELEGRAM_PHONE_NUMBER
-from .pipes import auth
+from config.config import TELEGRAM_API_ID, TELEGRAM_API_HASH, TELEGRAM_PHONE_NUMBER
+from pipes import auth
 
 
 api_id = TELEGRAM_API_ID

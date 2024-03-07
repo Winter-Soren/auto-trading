@@ -1,4 +1,3 @@
-# importing all env variables
 import os
 from dotenv import load_dotenv
 
@@ -31,4 +30,3 @@ UPSTOX_REDIRECT_URI = os.getenv("UPSTOX_REDIRECT_URI")
 UPSTOX_MOBILE_NUMBER = os.getenv("UPSTOX_MOBILE_NUMBER")
 UPSTOX_PIN = os.getenv("UPSTOX_PIN")
 UPSTOX_AUTH_URL = os.getenv("UPSTOX_AUTH_URL")
-

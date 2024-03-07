@@ -3,7 +3,7 @@ import time
 import requests
 
 
-from config import UPSTOX_API_KEY, UPSTOX_API_SECRET, UPSTOX_REDIRECT_URI, UPSTOX_MOBILE_NUMBER, UPSTOX_PIN, UPSTOX_AUTH_URL
+from config.config import UPSTOX_API_KEY, UPSTOX_API_SECRET, UPSTOX_REDIRECT_URI, UPSTOX_MOBILE_NUMBER, UPSTOX_PIN, UPSTOX_AUTH_URL
 
 global_access_code = None
 global_access_token = None

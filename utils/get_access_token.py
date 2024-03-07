@@ -1,5 +1,5 @@
 import requests
-from config import UPSTOX_API_KEY, UPSTOX_API_SECRET, UPSTOX_REDIRECT_URI, UPSTOX_AUTH_URL
+from config.config import UPSTOX_API_KEY, UPSTOX_API_SECRET, UPSTOX_REDIRECT_URI, UPSTOX_AUTH_URL
 
 def get_access_token(access_code: str):
     session = requests.Session()

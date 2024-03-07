@@ -2,12 +2,22 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from typing import Optional
-from ..config import UPSTOX_API_KEY, UPSTOX_REDIRECT_URI, UPSTOX_MOBILE_NUMBER, UPSTOX_PIN
+
+from config.config import (
+    UPSTOX_API_KEY,
+    UPSTOX_REDIRECT_URI,
+    UPSTOX_MOBILE_NUMBER,
+    UPSTOX_PIN,
+)
+
 
 def get_access_code() -> Optional[str]:
     print("loading the webdriver")
     driver = webdriver.Chrome()
-    driver.get(f'https://api-v2.upstox.com/login/authorization/dialog?response_type="code"&client_id={UPSTOX_API_KEY}&redirect_uri={UPSTOX_REDIRECT_URI}')
+    driver.get(
+        f'https://api-v2.upstox.com/login/authorization/dialog?response_type="code"&client_id={UPSTOX_API_KEY}&redirect_uri={UPSTOX_REDIRECT_URI}'
+    )
+    print(f"https://api-v2.upstox.com/login/authorization/dialog?response_type=code&client_id={UPSTOX_API_KEY}&redirect_uri={UPSTOX_REDIRECT_URI}")
     print(driver.title)
 
     print("minimizing the window")
@@ -39,13 +49,13 @@ def get_access_code() -> Optional[str]:
     submit = driver.find_element(By.ID, "pinContinueBtn")
 
     submit.click()
-    
+
     time.sleep(1)
-    
+
     url = driver.current_url
     print(url)
-    initial_access_code = url.split('code=')[1]
-    access_code = initial_access_code.split('&')[0]
+    initial_access_code = url.split("code=")[1]
+    access_code = initial_access_code.split("&")[0]
     print(access_code)
     driver.close()
 

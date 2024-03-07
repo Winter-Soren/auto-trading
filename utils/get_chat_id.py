@@ -1,5 +1,5 @@
 from telethon.sync import TelegramClient
-from config import TELEGRAM_API_ID, TELEGRAM_API_HASH, TELEGRAM_PHONE_NUMBER
+from config.config import TELEGRAM_API_ID, TELEGRAM_API_HASH, TELEGRAM_PHONE_NUMBER
 
 api_id = TELEGRAM_API_ID
 api_hash = TELEGRAM_API_HASH
