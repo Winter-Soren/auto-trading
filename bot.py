@@ -25,7 +25,7 @@ async def Bot():
     print(f"Welcome: {me.first_name}, your ID is: {me.id}, and your username is: @{me.username}")
 
     print("Authenticating Upstox")
-    # auth()
+    auth()
     print("Authenticated Upstox")
 
     channel = user_input_channel
