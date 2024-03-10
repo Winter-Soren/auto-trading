@@ -44,6 +44,7 @@ async def Bot():
 
         # Parse the message
         parsed_message = parse_trade_message(global_event.raw_text, take_lowest=True)
+        print("Parsed message: ", parsed_message)
         dataset_path = "./data/response_Nifty 50.json"
         target_index = parsed_message['index']
         num_closer_expiry = 1
@@ -59,7 +60,7 @@ async def Bot():
             "tag": "string",
             "instrument_token": closer_expiry_instruments[0]['instrument_key'],
             "order_type": "MARKET",
-            "transaction_type": "BUY",
+            "transaction_type": parsed_message['action'],
             "disclosed_quantity": 0,
             "trigger_price": 0,
             "is_amo": False
@@ -71,7 +72,7 @@ async def Bot():
             # print("response ", placed_order_response)
 
             if placed_order_response:
-                print(f"Order placed: {placed_order_response['data']['order_id']}, for the params: {params}")
+                print(f"Order placed: {placed_order_response['data']}, for the params: {params}")
             else:
                 print(f"Error placing order for the params: {params}")
 

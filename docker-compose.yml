@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  auto_trading:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command: python3 main.py
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    tty: true
+     
+

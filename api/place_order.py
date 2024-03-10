@@ -37,7 +37,8 @@ logger = logging.getLogger(__name__)
 def place_order(params: PlaceOrderParamsType) -> Union[None, Dict[str, Dict[str, str]]]:
     
     config = configparser.ConfigParser()
-    config.read('./keys.ini')
+    # config.read('./keys.ini')
+    config.read(os.path.join(CURRENT_DIR, "..", "keys.ini"))  
     # print(config['UPSTOX']['access_token'])
 
     try:

@@ -779,3 +779,176 @@ TypeError: 'module' object is not callable
 2024-03-10 14:35:40,623 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004123'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
 2024-03-10 14:36:20,365 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
 2024-03-10 14:36:20,365 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:43:00,572 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 15:43:00,633 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:43:29,990 - INFO - Today's date: 2024-03-10
+2024-03-10 15:43:29,996 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 15:43:30,226 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004724'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 15:43:53,562 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 15:43:53,563 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:43:57,892 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 15:43:57,954 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:44:01,071 - INFO - Got difference for account updates
+2024-03-10 15:44:01,247 - INFO - Today's date: 2024-03-10
+2024-03-10 15:44:01,261 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 15:44:01,473 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004729'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 15:45:18,752 - INFO - Got difference for account updates
+2024-03-10 15:45:19,425 - INFO - Account is now banned in 1800093480 so we can no longer fetch updates from it
+2024-03-10 15:47:35,476 - INFO - Got difference for account updates
+2024-03-10 15:47:46,621 - INFO - Got difference for account updates
+2024-03-10 15:47:46,645 - INFO - Today's date: 2024-03-10
+2024-03-10 15:47:46,647 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 15:47:46,866 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004762'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 15:49:46,396 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 15:49:46,397 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:49:50,263 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 15:49:50,332 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:51:55,023 - INFO - Today's date: 2024-03-10
+2024-03-10 15:51:55,028 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 15:51:55,247 - ERROR - Error placing order: 400 Client Error: Bad Request for url: https://api.upstox.com/v2/order/place, for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 100, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 15:53:48,805 - INFO - Today's date: 2024-03-10
+2024-03-10 15:53:48,807 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 15:53:48,986 - ERROR - Error placing order: 400 Client Error: Bad Request for url: https://api.upstox.com/v2/order/place, for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 100, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 15:54:04,499 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 15:54:04,500 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:54:07,886 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 15:54:07,950 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 15:54:11,697 - INFO - Today's date: 2024-03-10
+2024-03-10 15:54:11,699 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 15:54:12,472 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004801'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 16:00:45,694 - INFO - Got difference for account updates
+2024-03-10 16:02:02,141 - INFO - Got difference for account updates
+2024-03-10 16:02:02,209 - INFO - Today's date: 2024-03-10
+2024-03-10 16:02:02,211 - INFO - Closer expiry instruments: []
+2024-03-10 16:02:02,212 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 52, in handler
+    print(closer_expiry_instruments[0]['instrument_key'])
+          ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+2024-03-10 16:19:29,982 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 16:19:29,983 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 11:22:41,913 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 11:22:42,008 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
