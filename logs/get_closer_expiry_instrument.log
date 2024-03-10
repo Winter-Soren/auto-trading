@@ -952,3 +952,74 @@ IndexError: list index out of range
 2024-03-10 16:19:29,983 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
 2024-03-10 11:22:41,913 - INFO - Connecting to 91.108.56.154:443/TcpFull...
 2024-03-10 11:22:42,008 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:35:04,637 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 21:35:04,694 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:35:05,366 - INFO - Bot started
+2024-03-10 21:35:05,459 - INFO - Welcome: Flareon, your ID is: 807977603, and your username is: @BlaneBlane
+2024-03-10 21:35:59,758 - ERROR - Failed to authenticate Upstox. Error: 
+2024-03-10 21:36:03,868 - INFO - Listening to the channel for messages...
+2024-03-10 21:36:03,913 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 21:36:03,915 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:37:01,238 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 21:37:01,303 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:37:02,000 - INFO - Bot started
+2024-03-10 21:37:02,123 - INFO - Welcome: Flareon, your ID is: 807977603, and your username is: @BlaneBlane
+2024-03-10 21:37:02,123 - INFO - Upstox Authentication Complete.
+2024-03-10 21:37:02,123 - INFO - Listening to the channel for messages...
+2024-03-10 21:44:18,550 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 21:44:18,550 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:45:42,251 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 21:45:42,297 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:45:42,903 - INFO - Bot started
+2024-03-10 21:45:43,064 - INFO - Welcome: Flareon, your ID is: 807977603, and your username is: @BlaneBlane
+2024-03-10 21:45:43,064 - INFO - Upstox Authentication Complete.
+2024-03-10 21:46:00,529 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 21:46:00,601 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:46:01,571 - INFO - Bot started
+2024-03-10 21:46:01,677 - INFO - Welcome: Flareon, your ID is: 807977603, and your username is: @BlaneBlane
+2024-03-10 21:46:01,677 - INFO - Upstox Authentication Complete.
+2024-03-10 21:46:01,677 - INFO - Listening to the channel for messages...
+2024-03-10 21:46:49,434 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 21:46:49,435 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:46:55,574 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 21:46:55,696 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 21:46:56,452 - INFO - Bot started
+2024-03-10 21:46:56,580 - INFO - Welcome: Flareon, your ID is: 807977603, and your username is: @BlaneBlane
+2024-03-10 21:46:56,582 - INFO - Upstox Authentication Complete.
+2024-03-10 21:46:56,584 - INFO - Listening to the channel for messages...
+2024-03-10 21:47:02,813 - INFO - Received new message: {'index': 'Nifty 22400 CE', 'action': 'BUY', 'price': 155}
+2024-03-10 21:47:02,849 - INFO - Today's date: 2024-03-10
+2024-03-10 21:47:02,850 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43911",
+    "exchange_token": "43911",
+    "trading_symbol": "NIFTY 22400 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22400.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 21:47:03,287 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000007951'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43911', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 21:47:03,291 - INFO - Order placed: {'order_id': '240310000007951'}, for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43911', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 21:47:41,062 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 21:47:41,063 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 22:08:17,562 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 22:08:17,638 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 22:08:38,188 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 22:08:38,188 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 22:49:20,042 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 22:49:20,141 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 23:06:20,853 - INFO - Got difference for channel 1414993698 updates
+2024-03-10 23:50:36,482 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 23:50:36,498 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!

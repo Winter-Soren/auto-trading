@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-def get_option_contracts(element_str:str) -> None:
+def get_option_contracts(element_str:str, ) -> None:
     config = configparser.ConfigParser()
     config.read('../keys.ini')
 
