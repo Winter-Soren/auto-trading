@@ -30,13 +30,13 @@ def get_option_contracts(element_str:str) -> None:
         print("Access token not found in keys.ini")
         return
 
+    url = "https://api.upstox.com/v2/option/contract"
+
     headers = {
         'Accept': 'application/json',
         'Authorization': f'Bearer {access_token}'
     }
-
-    url = "https://api.upstox.com/v2/option/contract"
-
+    
     params = {
         'instrument_key': f'NSE_INDEX|{element_str}'
     }

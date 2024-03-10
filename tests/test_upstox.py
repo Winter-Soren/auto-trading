@@ -3,7 +3,7 @@ import time
 import requests
 
 
-from config.config import UPSTOX_API_KEY, UPSTOX_API_SECRET, UPSTOX_REDIRECT_URI, UPSTOX_MOBILE_NUMBER, UPSTOX_PIN, UPSTOX_AUTH_URL
+# from config.config import UPSTOX_API_KEY, UPSTOX_API_SECRET, UPSTOX_REDIRECT_URI, UPSTOX_MOBILE_NUMBER, UPSTOX_PIN, UPSTOX_AUTH_URL
 
 global_access_code = None
 global_access_token = None
@@ -18,7 +18,7 @@ def place_order(access_token = None):
     headers = {
         # 'Content-Type': 'application/json',
         'Accept': 'application/json',
-        'Authorization': 'Bearer ' + 'eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiIwMEEwUEEiLCJqdGkiOiI2NWU4YWNlNzcyY2QwMzM0ODA5Nzk5OTUiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNBY3RpdmUiOnRydWUsInNjb3BlIjpbImludGVyYWN0aXZlIiwiaGlzdG9yaWNhbCJdLCJpYXQiOjE3MDk3NDc0MzEsImlzcyI6InVkYXBpLWdhdGV3YXktc2VydmljZSIsImV4cCI6MTcwOTc2MjQwMH0.Ce26aQLsNuRvYNg9jUwghQ4ZIm8vZzcndvMgfI-yWtw',
+        'Authorization': 'Bearer ' + 'eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiIwMEEwUEEiLCJqdGkiOiI2NWVkNWJmMTBiZmI5YzU3NThhOGE4NDciLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNBY3RpdmUiOnRydWUsInNjb3BlIjpbImludGVyYWN0aXZlIiwiaGlzdG9yaWNhbCJdLCJpYXQiOjE3MTAwNTQzODUsImlzcyI6InVkYXBpLWdhdGV3YXktc2VydmljZSIsImV4cCI6MTcxMDEwODAwMH0.ccd2a_IjKMj-SvzUcCIUjFyUwMqQqBwwMYapaNH6pLs',
     }
 
     data = {

@@ -124,3 +124,658 @@ KeyError: 0
 ]
 2024-03-10 04:04:12,734 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
 2024-03-10 04:04:12,734 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 12:36:00,388 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 12:36:00,444 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 12:36:24,950 - INFO - Access code and access token successfully stored in keys.ini.
+2024-03-10 12:51:00,847 - INFO - Got difference for account updates
+2024-03-10 13:04:34,846 - INFO - Got difference for account updates
+2024-03-10 13:19:20,493 - INFO - Got difference for channel 1800093480 updates
+2024-03-10 13:19:34,942 - INFO - Got difference for account updates
+2024-03-10 13:33:08,243 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:33:08,315 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:33:36,907 - INFO - Today's date: 2024-03-10
+2024-03-10 13:33:36,908 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:33:36,913 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 68, in handler
+    placed_order_response = place_order(params)
+                            ^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2024-03-10 13:34:34,407 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:34:34,407 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:34:35,095 - INFO - Got difference for account updates
+2024-03-10 13:34:35,126 - INFO - Today's date: 2024-03-10
+2024-03-10 13:34:35,126 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:35:13,192 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:35:13,192 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:35:13,192 - ERROR - Unhandled exception from keepalive_handle after cancelling <class '_asyncio.Task'> (<Task finished name='Task-20' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py:481> exception=OperationalError('database is locked')>)
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\helpers.py", line 176, in _cancel
+    await task
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 517, in _keepalive_loop
+    self._save_states_and_entities()
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\telegrambaseclient.py", line 689, in _save_states_and_entities
+    self.session.process_entities(types.contacts.ResolvedPeer(None, [e._as_input_peer() for e in entities], []))
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+2024-03-10 13:35:17,898 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:35:17,958 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:35:26,289 - INFO - Today's date: 2024-03-10
+2024-03-10 13:35:26,292 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:35:26,336 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 70, in handler
+    placed_order_response = place_order(params)
+                            ^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2024-03-10 13:35:55,126 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:35:55,128 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:35:58,362 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:35:58,423 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:36:05,164 - INFO - Today's date: 2024-03-10
+2024-03-10 13:36:05,166 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:36:05,169 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 70, in handler
+    placed_order_response = place_order(params)
+                            ^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2024-03-10 13:51:42,248 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:51:42,251 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:52:15,083 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:52:15,146 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:52:24,454 - INFO - Today's date: 2024-03-10
+2024-03-10 13:52:24,459 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:52:24,465 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 70, in handler
+    placed_order_response = place_order(params)
+                            ^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2024-03-10 13:53:53,909 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:53:53,910 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:53:59,648 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:53:59,706 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:54:07,612 - INFO - Today's date: 2024-03-10
+2024-03-10 13:54:07,617 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:54:07,634 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 70, in handler
+    placed_order_response = place_order(params)
+                            ^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2024-03-10 13:55:21,353 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:55:21,355 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:55:29,224 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:55:29,284 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:55:35,970 - INFO - Today's date: 2024-03-10
+2024-03-10 13:55:35,976 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:55:35,979 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 70, in handler
+    placed_order_response = await place_order(params)
+                                  ^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2024-03-10 13:55:57,806 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:55:57,815 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:56:44,925 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:56:44,987 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:56:54,086 - INFO - Today's date: 2024-03-10
+2024-03-10 13:56:54,092 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 13:56:54,099 - ERROR - Unhandled exception on handler
+Traceback (most recent call last):
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\venv\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\soham\Desktop\CODE\Projects\Auto-Trading\bot.py", line 70, in handler
+    placed_order_response = place_order(params)
+                            ^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+2024-03-10 13:59:25,893 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 13:59:25,895 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 13:59:59,137 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 13:59:59,195 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:03:31,141 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:03:31,142 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:07:25,544 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:07:25,620 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:07:49,129 - INFO - Today's date: 2024-03-10
+2024-03-10 14:07:49,138 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:13:55,410 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:13:55,411 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:15:46,168 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:15:46,238 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:16:02,297 - INFO - Got difference for account updates
+2024-03-10 14:16:02,494 - INFO - Today's date: 2024-03-10
+2024-03-10 14:16:02,504 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:16:10,706 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:16:10,710 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:17:03,584 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:17:03,649 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:17:41,133 - INFO - Got difference for account updates
+2024-03-10 14:17:41,308 - INFO - Today's date: 2024-03-10
+2024-03-10 14:17:41,318 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:17:41,361 - ERROR - Access token not found in keys.ini
+2024-03-10 14:18:47,287 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:18:47,288 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:19:29,313 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:19:29,378 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:20:03,997 - INFO - Today's date: 2024-03-10
+2024-03-10 14:20:03,999 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:20:04,870 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004013'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 14:22:36,201 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:22:36,211 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:23:15,009 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:23:15,068 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:23:25,265 - INFO - Today's date: 2024-03-10
+2024-03-10 14:23:25,278 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:23:27,577 - ERROR - Access token not found in keys.ini
+2024-03-10 14:24:30,652 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:24:30,659 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:25:06,613 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:25:06,674 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:25:16,776 - INFO - Today's date: 2024-03-10
+2024-03-10 14:25:16,785 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:25:29,670 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:25:29,675 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:26:04,556 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:26:04,617 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:26:12,507 - INFO - Today's date: 2024-03-10
+2024-03-10 14:26:12,509 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:26:36,794 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:26:36,795 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:28:21,529 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:28:21,589 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:28:26,453 - INFO - Today's date: 2024-03-10
+2024-03-10 14:28:26,455 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:28:42,698 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:28:42,719 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:28:59,765 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:28:59,871 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:29:05,955 - INFO - Got difference for account updates
+2024-03-10 14:29:09,303 - INFO - Today's date: 2024-03-10
+2024-03-10 14:29:09,305 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:29:09,312 - ERROR - Access token not found in keys.ini
+2024-03-10 14:29:26,606 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:29:26,606 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:29:32,681 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:29:32,738 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:29:39,043 - INFO - Today's date: 2024-03-10
+2024-03-10 14:29:39,051 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:29:39,381 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004058'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 14:33:11,918 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:33:11,920 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:33:26,759 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:33:26,816 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:33:30,586 - INFO - Got difference for account updates
+2024-03-10 14:33:30,769 - INFO - Today's date: 2024-03-10
+2024-03-10 14:33:30,771 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:33:31,217 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004106'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 14:34:31,561 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:34:31,569 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:34:43,259 - INFO - Connecting to 91.108.56.154:443/TcpFull...
+2024-03-10 14:34:43,319 - INFO - Connection to 91.108.56.154:443/TcpFull complete!
+2024-03-10 14:34:50,174 - INFO - Today's date: 2024-03-10
+2024-03-10 14:34:50,177 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:34:50,489 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004115'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 14:35:13,487 - INFO - Today's date: 2024-03-10
+2024-03-10 14:35:13,488 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:35:13,712 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004119'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 14:35:37,166 - INFO - Got difference for account updates
+2024-03-10 14:35:40,302 - INFO - Today's date: 2024-03-10
+2024-03-10 14:35:40,303 - INFO - Closer expiry instruments: [
+  {
+    "name": "NIFTY",
+    "segment": "NSE_FO",
+    "exchange": "NSE",
+    "expiry": "2024-03-14",
+    "weekly": true,
+    "instrument_key": "NSE_FO|43899",
+    "exchange_token": "43899",
+    "trading_symbol": "NIFTY 22350 CE 14 MAR 24",
+    "tick_size": 5.0,
+    "lot_size": 50,
+    "instrument_type": "CE",
+    "freeze_quantity": 1800.0,
+    "underlying_key": "NSE_INDEX|Nifty 50",
+    "underlying_type": "INDEX",
+    "underlying_symbol": "NIFTY",
+    "strike_price": 22350.0,
+    "minimum_lot": 50
+  }
+]
+2024-03-10 14:35:40,623 - INFO - Order placed: {'status': 'success', 'data': {'order_id': '240310000004123'}} for the params: {'quantity': 1, 'product': 'D', 'validity': 'DAY', 'price': 0, 'tag': 'string', 'instrument_token': 'NSE_FO|43899', 'order_type': 'MARKET', 'transaction_type': 'BUY', 'disclosed_quantity': 0, 'trigger_price': 0, 'is_amo': False}
+2024-03-10 14:36:20,365 - INFO - Disconnecting from 91.108.56.154:443/TcpFull...
+2024-03-10 14:36:20,365 - INFO - Disconnection from 91.108.56.154:443/TcpFull complete!
